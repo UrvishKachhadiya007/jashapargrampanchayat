@@ -80,7 +80,7 @@ export default function Businesses() {
       <Hero
         title={t.business}
         subtitle={t.businessSubtitle}
-        image="/images/hero-business.webp"
+        image="./images/hero-business.webp"
       />
 
       <section className="container filters">

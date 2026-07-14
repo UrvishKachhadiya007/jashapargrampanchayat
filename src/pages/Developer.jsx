@@ -15,7 +15,7 @@ export default function Developer() {
       <Hero
         title={t.developer}
         subtitle={t.developerSubtitle}
-        image="/images/hero-developer.webp"
+        image="./images/hero-developer.webp"
       />
 
       <section className="container profile-grid single">

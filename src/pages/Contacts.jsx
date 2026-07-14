@@ -27,7 +27,7 @@ export default function Contacts() {
       <Hero
         title={t.contacts}
         subtitle={subtitle}
-        image="/images/hero-managers.webp"
+        image="./images/hero-managers.webp"
       />
 
       <section className="container contact-grid">

@@ -41,7 +41,7 @@ export default function About() {
       <Hero
         title={aboutTitle}
         subtitle={pick(village.intro, language)}
-        image="/images/hero-about.webp"
+        image="./images/hero-about.webp"
       />
 
       <section className="container about-layout">

@@ -245,7 +245,7 @@ export const businesses = [
       hi: "दैनिक जरूरत और घरेलू सामान।",
       en: "Daily essentials and household products.",
     },
-    image: "/images/business-1.webp",
+    image: "./images/business-1.webp",
     owners: [
       {
         name: {
@@ -253,7 +253,7 @@ export const businesses = [
           hi: "महेशभाई पटेल",
           en: "Maheshbhai Patel",
         },
-        photo: "/images/person-1.webp",
+        photo: "./images/person-1.webp",
       },
     ],
     phone: "+91 98765 11111",
@@ -280,7 +280,7 @@ export const businesses = [
       hi: "दवाइयाँ और स्वास्थ्य संबंधी वस्तुएँ।",
       en: "Medicines and healthcare essentials.",
     },
-    image: "/images/business-2.webp",
+    image: "./images/business-2.webp",
     owners: [
       {
         name: {
@@ -288,7 +288,7 @@ export const businesses = [
           hi: "राकेशभाई काछड़िया",
           en: "Rakeshbhai Kachhadiya",
         },
-        photo: "/images/person-2.webp",
+        photo: "./images/person-2.webp",
       },
     ],
     phone: "+91 98765 22222",
@@ -319,7 +319,7 @@ export const businesses = [
       hi: "कृषि उपकरण, बीज और खाद।",
       en: "Farm equipment, seeds and fertilizers.",
     },
-    image: "/images/business-3.webp",
+    image: "./images/business-3.webp",
     owners: [
       {
         name: {
@@ -327,7 +327,7 @@ export const businesses = [
           hi: "विजयभाई पिपलिया",
           en: "Vijaybhai Pipaliya",
         },
-        photo: "/images/person-3.webp",
+        photo: "./images/person-3.webp",
       },
     ],
     phone: "+91 98765 33333",
@@ -354,7 +354,7 @@ export const businesses = [
       hi: "बिल्डिंग और हार्डवेयर सामग्री।",
       en: "Building and hardware supplies.",
     },
-    image: "/images/business-4.webp",
+    image: "./images/business-4.webp",
     owners: [
       {
         name: {
@@ -362,7 +362,7 @@ export const businesses = [
           hi: "धवलभाई",
           en: "Dhavalbhai",
         },
-        photo: "/images/person-4.webp",
+        photo: "./images/person-4.webp",
       },
     ],
     phone: "+91 98765 44444",
@@ -388,7 +388,7 @@ export const businesses = [
       hi: "बस और यात्रा सेवाएँ।",
       en: "Bus and travel services.",
     },
-    image: "/images/business-5.webp",
+    image: "./images/business-5.webp",
     owners: [
       {
         name: {
@@ -396,7 +396,7 @@ export const businesses = [
           hi: "स्मित पिपलिया",
           en: "Smit Pipaliya",
         },
-        photo: "/images/person-3.webp",
+        photo: "./images/person-3.webp",
       },
     ],
     phone: "+91 98765 55555",
@@ -422,7 +422,7 @@ export const businesses = [
       hi: "विद्यार्थियों के लिए ट्यूशन और मार्गदर्शन।",
       en: "Tuition and academic guidance.",
     },
-    image: "/images/business-6.webp",
+    image: "./images/business-6.webp",
     owners: [
       {
         name: {
@@ -430,7 +430,7 @@ export const businesses = [
           hi: "क्रिना सोरठिया",
           en: "Krina Sorathiya",
         },
-        photo: "/images/person-2.webp",
+        photo: "./images/person-2.webp",
       },
     ],
     phone: "+91 98765 66666",
@@ -494,12 +494,12 @@ export const events = [1, 2, 3, 4, 5, 6].map((n) => ({
     en: "Selected memories from this village event.",
   },
 
-  cover: `/images/event-${n}.webp`,
+  cover: `./images/event-${n}.webp`,
 
   photos: [
-    `/images/event-${n}.webp`,
-    `/images/event-${(n % 6) + 1}.webp`,
-    `/images/event-${((n + 1) % 6) + 1}.webp`,
+    `./images/event-${n}.webp`,
+    `./images/event-${(n % 6) + 1}.webp`,
+    `./images/event-${((n + 1) % 6) + 1}.webp`,
   ],
 
   external: "https://photos.google.com/",
@@ -556,12 +556,12 @@ export const places = [1, 2, 3, 4, 5, 6].map((n) => ({
     en: "An important and memorable place in Jashapar village.",
   },
 
-  cover: `/images/place-${n}.webp`,
+  cover: `./images/place-${n}.webp`,
 
   photos: [
-    `/images/place-${n}.webp`,
-    `/images/place-${(n % 6) + 1}.webp`,
-    `/images/place-${((n + 2) % 6) + 1}.webp`,
+    `./images/place-${n}.webp`,
+    `./images/place-${(n % 6) + 1}.webp`,
+    `./images/place-${((n + 2) % 6) + 1}.webp`,
   ],
 
   location:
@@ -589,7 +589,7 @@ export const contacts = [
       en: "Sarpanch",
     },
     phone: "+91 98765 43201",
-    photo: "/images/person-1.webp",
+    photo: "./images/person-1.webp",
     priority: 1,
   },
 
@@ -605,7 +605,7 @@ export const contacts = [
       en: "Talati",
     },
     phone: "+91 98765 43202",
-    photo: "/images/person-3.webp",
+    photo: "./images/person-3.webp",
     priority: 2,
   },
 
@@ -621,7 +621,7 @@ export const contacts = [
       en: "Family Doctor",
     },
     phone: "+91 98765 43210",
-    photo: "/images/person-1.webp",
+    photo: "./images/person-1.webp",
     priority: 1,
   },
 
@@ -637,7 +637,7 @@ export const contacts = [
       en: "School Principal",
     },
     phone: "+91 98251 67890",
-    photo: "/images/person-2.webp",
+    photo: "./images/person-2.webp",
     priority: 3,
   },
 ];
@@ -709,7 +709,7 @@ export const managers = [
     },
     phone: "+91 99984 14441",
     instagram: "@urvish.kachhadiya",
-    photo: "/images/person-1.webp",
+    photo: "./images/person-1.webp",
   },
 
   {
@@ -720,7 +720,7 @@ export const managers = [
     },
     phone: "+91 76007 79846",
     instagram: "@bhavin.kachhadiya",
-    photo: "/images/person-3.webp",
+    photo: "./images/person-3.webp",
   },
 ];
 
@@ -738,6 +738,6 @@ export const developers = [
     },
     phone: "+91 98765 43210",
     instagram: "@urvish.kachhadiya",
-    photo: "/images/person-1.webp",
+    photo: "./images/person-1.webp",
   },
 ];

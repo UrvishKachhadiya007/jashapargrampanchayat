@@ -15,7 +15,7 @@ export default function Managers() {
       <Hero
         title={t.managers}
         subtitle={t.managersSubtitle}
-        image="/images/hero-managers.webp"
+        image="./images/hero-managers.webp"
       />
 
       <section className="container profile-grid">

@@ -30,7 +30,7 @@ export default function Layout() {
       <header className="header container">
         <Link to="/" className="brand">
           <img
-            src="/images/logo.webp"
+            src="./images/logo.webp"
             alt="Jashapar Village Portal Logo"
             className="logo"
           />
@@ -70,7 +70,7 @@ export default function Layout() {
         <div className="container footer-grid">
           <div className="footer-brand">
             <img
-              src="/images/logo.webp"
+              src="./images/logo.webp"
               alt="Jashapar Village Portal Logo"
               className="footer-logo"
             />
