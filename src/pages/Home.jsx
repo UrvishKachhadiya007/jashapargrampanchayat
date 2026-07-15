@@ -92,8 +92,7 @@ export default function Home() {
   return (
     <>
       <section className="home-hero container">
-        {/* <img src="./images/hero-home.webp" /> */}
-        <img src="https://res.cloudinary.com/drfdzyazt/image/upload/v1784126749/TestImage_bbodr2.webp" />
+        <img src="./images/hero-home.webp" />
         <div className="home-overlay">
           <p>{t.welcomeTo}</p>
           <h1>{pick(village.heroTitle, language)}</h1>

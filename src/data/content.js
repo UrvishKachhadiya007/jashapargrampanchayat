@@ -229,218 +229,48 @@ export const village = {
     ],
   ],
 };
-
 export const businesses = [
   {
-    id: "b1",
-    name: {
-      gu: "પટેલ કિરાણા સ્ટોર",
-      hi: "पटेल किराना स्टोर",
-      en: "Patel Kirana Store",
+    "id": "b6",
+    "name": {
+      "gu": "બ્રાઇટ ફ્યુચર ક્લાસિસ",
+      "hi": "ब्राइट फ्यूचर क्लासेस",
+      "en": "Bright Future Classes"
     },
-    category: { gu: "કિરાણા", hi: "किराना", en: "Grocery" },
-    city: { gu: "રાજકોટ", hi: "राजकोट", en: "Rajkot" },
-    desc: {
-      gu: "દૈનિક જરૂરિયાતની વસ્તુઓ અને ઘરેલું સામાન.",
-      hi: "दैनिक जरूरत और घरेलू सामान।",
-      en: "Daily essentials and household products.",
+    "category": {
+      "gu": "શિક્ષણ",
+      "hi": "शिक्षा",
+      "en": "Education"
     },
-    image: "./images/business-1.webp",
-    owners: [
+    "city": {
+      "gu": "જામનગર",
+      "hi": "जामनगर",
+      "en": "Jamnagar"
+    },
+    "desc": {
+      "gu": "વિદ્યાર્થીઓ માટે ટ્યુશન અને માર્ગદર્શન.",
+      "hi": "विद्यार्थियों के लिए ट्यूशन और मार्गदर्शन।",
+      "en": "Tuition and academic guidance."
+    },
+    "image": "./images/business-6.webp",
+    "owners": [
       {
-        name: {
-          gu: "મહેશભાઈ પટેલ",
-          hi: "महेशभाई पटेल",
-          en: "Maheshbhai Patel",
+        "name": {
+          "gu": "ક્રિના સોરઠિયા",
+          "hi": "क्रिना सोरठिया",
+          "en": "Krina Sorathiya"
         },
-        photo: "./images/person-1.webp",
-      },
+        "photo": "https://res.cloudinary.com/drfdzyazt/image/upload/v1784130601/jashapar-portal/people/business-owners/p6rka3d32eiupot3tecb.webp"
+      }
     ],
-    phone: "+91 98765 11111",
-    whatsapp: "919876511111",
-    address: {
-      gu: "મુખ્ય માર્ગ, રાજકોટ",
-      hi: "मुख्य मार्ग, राजकोट",
-      en: "Main Road, Rajkot",
-    },
-    featured: true,
-  },
-
-  {
-    id: "b2",
-    name: {
-      gu: "લાઇફ કેર ફાર્મસી",
-      hi: "लाइफ केयर फार्मेसी",
-      en: "Life Care Pharmacy",
-    },
-    category: { gu: "મેડિકલ", hi: "मेडिकल", en: "Medical" },
-    city: { gu: "જામનગર", hi: "जामनगर", en: "Jamnagar" },
-    desc: {
-      gu: "દવાઓ અને આરોગ્ય સંબંધિત વસ્તુઓ.",
-      hi: "दवाइयाँ और स्वास्थ्य संबंधी वस्तुएँ।",
-      en: "Medicines and healthcare essentials.",
-    },
-    image: "./images/business-2.webp",
-    owners: [
-      {
-        name: {
-          gu: "રાકેશભાઈ કાછડિયા",
-          hi: "राकेशभाई काछड़िया",
-          en: "Rakeshbhai Kachhadiya",
-        },
-        photo: "./images/person-2.webp",
-      },
-    ],
-    phone: "+91 98765 22222",
-    whatsapp: "919876522222",
-    address: {
-      gu: "હોસ્પિટલ રોડ, જામનગર",
-      hi: "अस्पताल रोड, जामनगर",
-      en: "Hospital Road, Jamnagar",
-    },
-    featured: true,
-  },
-
-  {
-    id: "b3",
-    name: {
-      gu: "કિસાન એગ્રો સેન્ટર",
-      hi: "किसान एग्रो सेंटर",
-      en: "Kisan Agro Center",
-    },
-    category: { gu: "કૃષિ", hi: "कृषि", en: "Agriculture" },
-    city: {
-      gu: "જશાપર/કાલાવડ",
-      hi: "जशापर/कालावड",
-      en: "Jashapar/Kalavad",
-    },
-    desc: {
-      gu: "કૃષિ સાધનો, બીજ અને ખાતર.",
-      hi: "कृषि उपकरण, बीज और खाद।",
-      en: "Farm equipment, seeds and fertilizers.",
-    },
-    image: "./images/business-3.webp",
-    owners: [
-      {
-        name: {
-          gu: "વિજયભાઈ પીપળિયા",
-          hi: "विजयभाई पिपलिया",
-          en: "Vijaybhai Pipaliya",
-        },
-        photo: "./images/person-3.webp",
-      },
-    ],
-    phone: "+91 98765 33333",
-    whatsapp: "919876533333",
-    address: {
-      gu: "કાલાવડ રોડ",
-      hi: "कालावड रोड",
-      en: "Kalavad Road",
-    },
-    featured: true,
-  },
-
-  {
-    id: "b4",
-    name: {
-      gu: "શ્રીજી હાર્ડવેર",
-      hi: "श्रीजी हार्डवेयर",
-      en: "Shreeji Hardware",
-    },
-    category: { gu: "હાર્ડવેર", hi: "हार्डवेयर", en: "Hardware" },
-    city: { gu: "સુરત", hi: "सूरत", en: "Surat" },
-    desc: {
-      gu: "બિલ્ડિંગ અને હાર્ડવેર સામાન.",
-      hi: "बिल्डिंग और हार्डवेयर सामग्री।",
-      en: "Building and hardware supplies.",
-    },
-    image: "./images/business-4.webp",
-    owners: [
-      {
-        name: {
-          gu: "ધવલભાઈ",
-          hi: "धवलभाई",
-          en: "Dhavalbhai",
-        },
-        photo: "./images/person-4.webp",
-      },
-    ],
-    phone: "+91 98765 44444",
-    whatsapp: "919876544444",
-    address: {
-      gu: "રિંગ રોડ, સુરત",
-      hi: "रिंग रोड, सूरत",
-      en: "Ring Road, Surat",
-    },
-  },
-
-  {
-    id: "b5",
-    name: {
-      gu: "શક્તિ ટ્રાવેલ્સ",
-      hi: "शक्ति ट्रैवल्स",
-      en: "Shakti Travels",
-    },
-    category: { gu: "ટ્રાન્સપોર્ટ", hi: "परिवहन", en: "Transport" },
-    city: { gu: "રાજકોટ", hi: "राजकोट", en: "Rajkot" },
-    desc: {
-      gu: "બસ અને ટ્રાવેલ સેવાઓ.",
-      hi: "बस और यात्रा सेवाएँ।",
-      en: "Bus and travel services.",
-    },
-    image: "./images/business-5.webp",
-    owners: [
-      {
-        name: {
-          gu: "સ્મિત પીપળિયા",
-          hi: "स्मित पिपलिया",
-          en: "Smit Pipaliya",
-        },
-        photo: "./images/person-3.webp",
-      },
-    ],
-    phone: "+91 98765 55555",
-    whatsapp: "919876555555",
-    address: {
-      gu: "ટ્રાન્સપોર્ટ નગર, રાજકોટ",
-      hi: "ट्रांसपोर्ट नगर, राजकोट",
-      en: "Transport Nagar, Rajkot",
-    },
-  },
-
-  {
-    id: "b6",
-    name: {
-      gu: "બ્રાઇટ ફ્યુચર ક્લાસિસ",
-      hi: "ब्राइट फ्यूचर क्लासेस",
-      en: "Bright Future Classes",
-    },
-    category: { gu: "શિક્ષણ", hi: "शिक्षा", en: "Education" },
-    city: { gu: "જામનગર", hi: "जामनगर", en: "Jamnagar" },
-    desc: {
-      gu: "વિદ્યાર્થીઓ માટે ટ્યુશન અને માર્ગદર્શન.",
-      hi: "विद्यार्थियों के लिए ट्यूशन और मार्गदर्शन।",
-      en: "Tuition and academic guidance.",
-    },
-    image: "./images/business-6.webp",
-    owners: [
-      {
-        name: {
-          gu: "ક્રિના સોરઠિયા",
-          hi: "क्रिना सोरठिया",
-          en: "Krina Sorathiya",
-        },
-        photo: "./images/person-2.webp",
-      },
-    ],
-    phone: "+91 98765 66666",
-    whatsapp: "919876566666",
-    address: {
-      gu: "પટેલ કોલોની, જામનગર",
-      hi: "पटेल कॉलोनी, जामनगर",
-      en: "Patel Colony, Jamnagar",
-    },
-  },
+    "phone": "+91 98765 66666",
+    "whatsapp": "919876566666",
+    "address": {
+      "gu": "પટેલ કોલોની, જામનગર",
+      "hi": "पटेल कॉलोनी, जामनगर",
+      "en": "Patel Colony, Jamnagar"
+    }
+  }
 ];
 
 export const events = [1, 2, 3, 4, 5, 6].map((n) => ({
