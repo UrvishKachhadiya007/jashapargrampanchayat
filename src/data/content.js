@@ -252,7 +252,7 @@ export const businesses = [
       "hi": "विद्यार्थियों के लिए ट्यूशन और मार्गदर्शन।",
       "en": "Tuition and academic guidance."
     },
-    "image": "./images/business-6.webp",
+    "image": "https://res.cloudinary.com/drfdzyazt/image/upload/v1784130913/jashapar-portal/businesses/ii72bfv5o7cvbn71xtgj.webp",
     "owners": [
       {
         "name": {
