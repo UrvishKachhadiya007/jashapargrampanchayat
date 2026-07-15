@@ -235,50 +235,7 @@ export const village = {
   ]
 };
 
-export const businesses = [
-  {
-    "id": "b6",
-    "name": {
-      "gu": "બ્રાઇટ ફ્યુચર ક્લાસિસ",
-      "hi": "ब्राइट फ्यूचर क्लासेस",
-      "en": "Bright Future Classesesssssss"
-    },
-    "category": {
-      "gu": "શિક્ષણ",
-      "hi": "शिक्षा",
-      "en": "Education"
-    },
-    "city": {
-      "gu": "જામનગર",
-      "hi": "जामनगर",
-      "en": "Jamnagar"
-    },
-    "desc": {
-      "gu": "વિદ્યાર્થીઓ માટે ટ્યુશન અને માર્ગદર્શન.",
-      "hi": "विद्यार्थियों के लिए ट्यूशन और मार्गदर्शन।",
-      "en": "Tuition and academic guidance."
-    },
-    "image": "https://res.cloudinary.com/drfdzyazt/image/upload/v1784135654/jashapar-portal/businesses/obrv9b7upqyakhbqvjfw.webp",
-    "owners": [
-      {
-        "name": {
-          "gu": "ક્રિના સોરઠિયા",
-          "hi": "क्रिना सोरठिया",
-          "en": "Krina Sorathiya"
-        },
-        "photo": "https://res.cloudinary.com/drfdzyazt/image/upload/v1784135647/jashapar-portal/people/business-owners/w1dhhvhvegcjawzzrjhh.webp"
-      }
-    ],
-    "phone": "+91 98765 66666",
-    "whatsapp": "919876566666",
-    "address": {
-      "gu": "પટેલ કોલોની, જામનગર",
-      "hi": "पटेल कॉलोनी, जामनगर",
-      "en": "Patel Colony, Jamnagar"
-    },
-    "featured": true
-  }
-];
+export const businesses = [];
 
 export const events = [
   {
@@ -296,8 +253,6 @@ export const events = [
     },
     "cover": "./images/event-1.webp",
     "photos": [
-      "./images/event-1.webp",
-      "./images/event-2.webp",
       "./images/event-3.webp"
     ],
     "external": "https://photos.google.com/"
@@ -583,17 +538,17 @@ export const places = [
 export const contacts = [
   {
     "name": {
-      "gu": "રમેશભાઈ વાળા",
-      "hi": "रमेशभाई वाला",
-      "en": "Rameshbhai Vala"
+      "gu": "ઉર્વિશ કછડિયા",
+      "hi": "उर्विश कछड़िया",
+      "en": "Urvish Kachhadiya"
     },
     "role": {
-      "gu": "સરપંચ",
-      "hi": "सरपंच",
-      "en": "Sarpanch"
+      "gu": "પોર્ટલ ડેવલપર",
+      "hi": "पोर्टल डेवलपर",
+      "en": "Portal Developer"
     },
-    "phone": "+91 98765 43201",
-    "photo": "./images/person-1.webp",
+    "phone": "+91 9998414441",
+    "photo": "https://res.cloudinary.com/drfdzyazt/image/upload/v1784139008/jashapar-portal/people/contacts/logo-1784139005172-46d93d54.webp",
     "priority": 1
   },
   {
@@ -718,7 +673,7 @@ export const managers = [
     },
     "phone": "+91 99984 14441",
     "instagram": "@urvish.kachhadiya",
-    "photo": "./images/person-1.webp"
+    "photo": ""
   },
   {
     "name": {
@@ -732,20 +687,4 @@ export const managers = [
   }
 ];
 
-export const developers = [
-  {
-    "name": {
-      "gu": "ઉર્વિશ કાછડિયા",
-      "hi": "उर्विश काछड़िया",
-      "en": "Urvish Kachhadiya"
-    },
-    "role": {
-      "gu": "ડેવલપર",
-      "hi": "डेवलपर",
-      "en": "Developer"
-    },
-    "phone": "+91 98765 43210",
-    "instagram": "@urvish.kachhadiya",
-    "photo": "./images/person-1.webp"
-  }
-];
+export const developers = [];
